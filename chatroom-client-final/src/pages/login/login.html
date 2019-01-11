@@ -1,0 +1,34 @@
+  
+<ion-header>
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding id="welcome">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-9>
+        <h1>Who's this?</h1>
+      </ion-col>
+      <ion-col col-2>
+      <img src="assets/imgs/login.png" class="logo"/>
+      </ion-col>  
+    </ion-row>
+  </ion-grid>
+
+    <ion-item>
+    <ion-label color="primary" stacked>Username</ion-label>
+    <ion-input type="text" placeholder="freetalk" [(ngModel)] = "username"></ion-input>
+    </ion-item>
+
+    <ion-item>
+    <ion-label color="primary" stacked>Password</ion-label>
+    <ion-input type="password" placeholder="122345" [(ngModel)] = "password"></ion-input>
+    </ion-item>
+
+    <button ion-button full color="lightText" (click)="login()" >Take me in!</button>
+
+</ion-content>

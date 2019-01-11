@@ -1,0 +1,42 @@
+page-chatroom {
+
+	background: colors($colors,light);
+
+	h1{
+
+		font-size: 52px;
+		margin-top: 50px;
+	}
+
+	.logo{
+
+		height: 70px;
+	}
+
+	.user_name {
+        color: #afafaf;
+    }
+    .message {
+        padding: 10px !important;
+        transition: all 250ms ease-in-out !important;
+        border-radius: 10px !important;
+        margin-bottom: 4px !important;
+    }
+    .my_message {
+        background: color($colors, secondary) !important;
+        color: #000 !important;
+    }
+    .other_message {
+        background: #dcdcdc !important;
+        color: #000 !important;
+    }
+    .time {
+        color: #afafaf;
+        float: right;
+        font-size: small;
+    }
+    .message_row {
+        background-color: #fff;
+    }
+
+}
